@@ -1,0 +1,84 @@
+.continer {
+  top: 71px;
+  bottom: 0px;
+  height: 835px;
+  .login-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    .up {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .login-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        .password {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+          .checkbox {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+          }
+          .button {
+            display: flex;
+            flex-direction: column;
+            button {
+              width: 270px;
+              height: 32px;
+              border-color: black;
+              border-width: 1px;
+              border-radius: 16px;
+              background-color: grey;
+              color: whitesmoke;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+      }
+    }
+    .login-text {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .continer {
+        width: 600px;
+      }
+      .login-frame {
+        width: 280px;
+      }
+      .buttom{
+        width: 100%;
+      }
+    }
+    .email {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+      input {
+      }
+    }
+    .buttom{
+       display:flex;
+       flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   height: 100px;
+a{
+  text-align: center;
+}
+    }
+  }
+}
